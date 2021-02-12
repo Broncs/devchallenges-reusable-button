@@ -19,7 +19,7 @@ const Buttons = () => {
       </div>
       <div>
         <code>&lt;Button variant="text"/&gt;</code>
-        <Button />
+        <Button variant="text" />
         <code>&:hover, &:focus</code>
         <Button />
       </div>
