@@ -7,65 +7,71 @@ const Buttons = () => {
       <h1>Buttons</h1>
       <div>
         <code>&lt;Button/&gt;</code>
-        <Button />
+        <Button>Default</Button>
         <code>&:hover, &:focus</code>
-        <Button />
+        <Button>Default</Button>
       </div>
       <div>
         <code>&lt;Button variant="outline"/&gt;</code>
-        <Button variant="outline" />
+        <Button variant="outline">Default</Button>
         <code>&:hover, &:focus</code>
-        <Button />
+        <Button variant="outline" color="primary">
+          Default
+        </Button>
       </div>
       <div>
         <code>&lt;Button variant="text"/&gt;</code>
-        <Button variant="text" />
+        <Button variant="text" color="secondary"></Button>
         <code>&:hover, &:focus</code>
-        <Button />
+        <Button variant="text" color="primary">
+          Default
+        </Button>
       </div>
       <div>
         <code>&lt;Button disableShadow/&gt;</code>
-        <Button />
+        <Button disableShadow>Default</Button>
       </div>
       <div>
         <code>&lt;Button disabled/&gt;</code>
-        <Button />
+        <Button disabled>Default</Button>
         <code>&lt;Button variant="text" disabled/&gt;</code>
-        <Button />
+        <Button variant="text" disabled>
+          Default
+        </Button>
       </div>
       <div>
         <code>&lt;Button startIcon="local_grocery_store"/&gt;</code>
-        <Button />
+        <Button>Default</Button>
         <code>&lt;Button endIcon="local_grocery_store"/&gt;</code>
-        <Button />
+        <Button>Default</Button>
       </div>
       <div>
         <code>&lt;Button size="sm"/&gt;</code>
-        <Button />
+        <Button size="sm">Default</Button>
         <code>&lt;Button size="md"/&gt;</code>
-        <Button />
+        <Button size="md">Default</Button>
         <code>&lt;Button size="lg"/&gt;</code>
-        <Button />
+        <Button size="lg">Default</Button>
       </div>
       <div>
         <code>&lt;Button color="default"/&gt;</code>
-        <Button />
+        <Button color="default">Default</Button>
         <code>&lt;Button color="primary"/&gt;</code>
-        <Button />
+        <Button color="primary">Default</Button>
         <code>&lt;Button color="secondary"/&gt;</code>
-        <Button />
-        <code>&lt;Button color="damger"/&gt;</code>
-        <Button />
+        <Button color="secondary">Default</Button>
+        <code>&lt;Button color="danger"/&gt;</code>
+        <Button color="danger">Default</Button>
       </div>
       <div>
         <code>&lt;&:hover, &:focus&gt;</code>
-        <Button />
+        <Button color="default">Default</Button>
         <code>&lt;&gt;</code>
-        <Button />
+        <Button color="primary">Default</Button>
         <code>&lt;&gt;</code>
-        <Button />
+        <Button color="secondary">Default</Button>
         <code>&lt;&gt;</code>
-        <Button />
+        <Button color="danger">Default</Button>
       </div>
     </div>
   );
