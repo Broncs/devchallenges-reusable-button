@@ -9,7 +9,7 @@ const colors = {
     danger: '#D32F2F',
   },
   hover: {
-    defualt: '#AEAEAE',
+    default: '#AEAEAE',
     primary: '#0039CB',
     secondary: '#1C313A',
     danger: '#9A0007',
@@ -18,6 +18,17 @@ const colors = {
 
 const ButtonDefault = styled.button`
   /* Default */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .start-icon {
+    margin-right: 5px;
+  }
+  .end-icon {
+    margin-left: 5px;
+  }
+
   &.btn {
     padding: 0.5rem 1rem;
 
@@ -138,6 +149,18 @@ const ButtonDefault = styled.button`
     box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
     color: #ffffff;
   }
+  &.btn.default-hover {
+    background: ${({ colors }) => colors.hover.default};
+  }
+  &.btn.primary-hover {
+    background: ${({ colors }) => colors.hover.primary};
+  }
+  &.btn.secondary-hover {
+    background: ${({ colors }) => colors.hover.secondary};
+  }
+  &.btn.danger-hover {
+    background: ${({ colors }) => colors.hover.danger};
+  }
 `;
 
 const Button = ({
@@ -149,6 +172,7 @@ const Button = ({
   color,
   startIcon,
   endIcon,
+  hover,
 }) => {
   return (
     <div>
@@ -158,6 +182,7 @@ const Button = ({
          ${disabled ? 'disabledButton' : null} 
          ${size} 
          ${color}
+         ${hover}
           
          `}
         disabled={disabled}
@@ -165,7 +190,9 @@ const Button = ({
         color={color}
         colors={colors}
       >
+        <span className="start-icon">{startIcon}</span>
         {children}
+        <span className="end-icon">{endIcon}</span>
       </ButtonDefault>
     </div>
   );

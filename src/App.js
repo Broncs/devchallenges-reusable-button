@@ -1,12 +1,11 @@
 import Button from './components/Button';
 import Buttons from './components/Buttons';
-import SideBar from './components/SideBar';
+import Maincontainer from './components/Maincontainer';
 
 function App() {
   return (
     <div className="App">
-      <SideBar />
-      <Buttons />
+      <Maincontainer />
     </div>
   );
 }
