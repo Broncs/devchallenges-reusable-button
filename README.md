@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">devchallenges-reusable-button</h1>
+# Devchallenges-reusable-button
 
 <div align="center">
   Solução do desafio do  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
