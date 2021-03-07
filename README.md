@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://dev-challeng-reusable-buttons.netlify.app//">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/HBx67M7fm39yP7nZxEqb">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,9 @@
 
 ## Demonstração
 
-- Voce pode checar o resultado aqui aqui ,
+- Voce pode checar o resultado aqui aqui  <a href="https://dev-challeng-reusable-buttons.netlify.app//">
+      Demo
+    </a>,
 - Aprendi , e pratiquei bastante sobre componentes reutilizáveis;
 
 ![image](https://user-images.githubusercontent.com/62390902/107855368-9859a800-6e00-11eb-86c1-111bed11f9bd.png)
